@@ -1,5 +1,5 @@
 import type { Product } from '../types/Product';
-import type { Order, OrderItem } from '../services/order.service';
+import type { Order } from '../services/order.service';
 
 export const mockProducts: Product[] = [
   {
