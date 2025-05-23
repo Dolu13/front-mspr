@@ -15,7 +15,7 @@ export const LoginButton = () => {
         Déconnexion
       </Button><Button
         color="inherit"
-        onClick={() => navigate('/cart')}
+        onClick={() => navigate('/admin')}
       >
           Admin
         </Button></>
@@ -30,7 +30,7 @@ export const LoginButton = () => {
       Connexion
     </Button><Button
       color="inherit"
-      onClick={() =>  navigate('/cart')}
+      onClick={() =>  navigate('/admin')}
     >
         Admin
       </Button></>
