@@ -8,12 +8,17 @@ export const LoginButton = () => {
 
   if (isAuthenticated) {
     return (
-      <Button 
-        color="inherit" 
+      <><Button
+        color="inherit"
         onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}
       >
         Déconnexion
-      </Button>
+      </Button><Button
+        color="inherit"
+        onClick={() => navigate('/cart')}
+      >
+          Admin
+        </Button></>
     );
   }
 
